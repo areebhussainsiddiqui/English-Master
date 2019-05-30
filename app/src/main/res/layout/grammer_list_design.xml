@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_effect"
+        android:elevation="20dp"
+        android:layout_margin="10dp"
+>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginStart="14dp"/>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/grammar_list_title"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="12sp"
+                    android:textColor="#000"
+                    android:id="@+id/grammar_list_subtitle"/>
+
+        </LinearLayout>
+
+
+        <ImageButton
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:rotation="180"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginStart="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/arrow"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

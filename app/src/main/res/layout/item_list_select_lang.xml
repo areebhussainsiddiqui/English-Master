@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:orientation="horizontal"
+>
+    <ImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/Sel_Lang_FLAG_IV"
+            android:layout_width="37.3dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="25.3dp"
+            android:src="@drawable/turkey"/>
+    <TextView
+            android:layout_marginHorizontal="20dp"
+            android:layout_alignLeft="@id/Sel_Lang_Country_TxtV"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:id="@+id/Sel_Lang_Country_TxtV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turkey"
+            android:textSize="12.7sp"
+            android:textColor="#000000"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="54sp"
+            android:paddingHorizontal="20dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_gravity="center_vertical"
+    />
+    <CheckBox
+            android:id="@+id/Sel_Lang_Country_CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/checkbox_no_unselected"
+
+    >
+
+    </CheckBox>
+</LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#6F6F6F"
+/>
+</LinearLayout>

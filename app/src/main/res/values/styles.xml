@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+<style name="AppTheme.SlidrActivityThemem">
+    <item name="android:windowIsTranslucent">true</item>
+    <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+
+</style>
+    <!--PROGRESS BAR-->
+    <style name="SpinKitView.Large.Circle"></style>
+    <style name="SpinKitView">@style/SpinKitView</style>
+    <style name="SpinKitView.Circle">@style/SpinKitView.Circle</style>
+    <style name="SpinKitView.Large">@style/SpinKitView.Large</style>
+    <style name="SpinKitView.Large.ChasingDots">@style/SpinKitView.Large.ChasingDots</style>
+
+</resources>

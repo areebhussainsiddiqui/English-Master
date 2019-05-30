@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.ResultActivity">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher_round"
+            android:id="@+id/result_activity_logo"
+            android:minHeight="137dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginEnd="137dp"
+            android:layout_marginStart="137dp"
+            android:layout_above="@id/text_views"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/text_views"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:orientation="vertical">
+
+        <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/result_tv_background"
+                android:textColor="#fff"
+                android:text="@string/result_total"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/result_activity_total"
+                android:textSize="15sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/result_tv_background"
+                android:textColor="#fff"
+                android:text="@string/Result_correct"
+                android:layout_gravity="center"
+                android:id="@+id/result_activity_correct"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:textSize="15sp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/result_tv_background"
+                android:textColor="#fff"
+                android:text="@string/Result_wrong"
+                android:layout_gravity="center"
+                android:id="@+id/result_activity_wrong"
+                android:gravity="center"
+                android:layout_below="@id/result_activity_correct"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_text"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:layout_marginBottom="128dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/text_views"
+            android:id="@+id/result_activity_share"
+            android:background="@drawable/share_button_background"/>
+    <!-- <include
+                layout="@layout/bottom_bar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/bottom_bar"
+                android:layout_alignParentBottom="true"/>
+    -->
+</RelativeLayout>

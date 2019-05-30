@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.Creative_Writing_Menu"
+        android:orientation="vertical">
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+        <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:columnCount="5"
+                android:rowCount="2"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+               >
+
+            <View
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+
+            <RelativeLayout
+                    android:id="@+id/Crea_Wri_ReadingVocabulary_btn"
+                    android:onClick="onClick"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="97.3dp"
+                    android:layout_height="0dp"
+                    android:paddingLeft="20dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="20dp"
+            >
+
+                <RelativeLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/square">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorblack"
+                            android:textSize="14sp"
+                            android:letterSpacing="0.03"
+                            android:lineSpacingExtra="8sp"
+
+                            android:gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:text="@string/reading_n_vocabulary"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/circle"
+                        android:layout_centerHorizontal="true"
+
+                >
+                    <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/reading"
+
+                    />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <View
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.01"/>
+            <RelativeLayout
+                    android:id="@+id/Crea_Wri_WritingVocabulary_btn"
+                    android:onClick="onClick"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="97.3dp"
+                    android:layout_height="0dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="20dp"
+            >
+                <RelativeLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/square">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorblack"
+                            android:textSize="14sp"
+                            android:letterSpacing="0.03"
+                            android:lineSpacingExtra="8sp"
+                            android:gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:text="@string/writing_n_vocabulary"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/circle"
+                        android:layout_centerHorizontal="true"
+
+                >
+                    <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:padding="4dp"
+                            android:src="@drawable/writing"
+
+                    />
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <View
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+
+            <View
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+
+            <RelativeLayout
+                    android:id="@+id/Crea_Wri_ListeningVocabulary_btn"
+                    android:onClick="onClick"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="20dp"
+            >
+                <RelativeLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/square">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorblack"
+                            android:textSize="14sp"
+                            android:letterSpacing="0.03"
+                            android:lineSpacingExtra="8sp"
+                            android:gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:text="@string/listening_n_vocabulary"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/circle"
+                        android:layout_centerHorizontal="true"
+
+                >
+                    <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:padding="2dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/audio_book"
+
+                    />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <View
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+            <RelativeLayout
+                    android:id="@+id/Crea_Wri_SpeakingVocabulary_btn"
+                    android:onClick="onClick"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="20dp"
+            >
+                <RelativeLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/square">
+                    <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorblack"
+                            android:textSize="14sp"
+                            android:letterSpacing="0.03"
+                            android:lineSpacingExtra="8sp"
+                            android:gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:text="@string/speaking_n_vocabulary"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/circle"
+                        android:layout_centerHorizontal="true"
+
+                >
+                    <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/mic"
+
+                    />
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <View
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"/>
+
+        </GridLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"/>
+    </LinearLayout>
+
+
+
+
+    <!--
+    <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="5dp"
+    >
+        <TableLayout
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="85dp"
+                android:stretchColumns="*">
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1" >
+
+
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:paddingHorizontal="10dp"
+
+                >
+                    <RelativeLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/square">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/colorblack"
+                                android:textSize="14sp"
+                                android:letterSpacing="0.03"
+                                android:lineSpacingExtra="8sp"
+                                android:gravity="center_horizontal"
+                                android:layout_centerVertical="true"
+                                android:text="Reading \nVocabulary"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/circle"
+                            android:layout_centerHorizontal="true"
+
+                    >
+                        <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/reading"
+
+                        />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:paddingHorizontal="10dp"
+
+                >
+                    <RelativeLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/square">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/colorblack"
+                                android:textSize="14sp"
+                                android:letterSpacing="0.03"
+                                android:lineSpacingExtra="8sp"
+                                android:gravity="center_horizontal"
+                                android:layout_centerVertical="true"
+                                android:text="Writing \nVocabulary"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/circle"
+                            android:layout_centerHorizontal="true"
+
+                    >
+                        <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:padding="4dp"
+                                android:src="@drawable/writing"
+
+                        />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+            </TableRow>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="46dp"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1" >
+                <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:paddingHorizontal="10dp"
+
+                >
+                    <RelativeLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/square">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/colorblack"
+                                android:textSize="14sp"
+                                android:letterSpacing="0.03"
+                                android:lineSpacingExtra="8sp"
+                                android:gravity="center_horizontal"
+                                android:layout_centerVertical="true"
+                                android:text="Listening \nVocabulary"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/circle"
+                            android:layout_centerHorizontal="true"
+
+                    >
+                        <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:padding="2dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/audio_book"
+
+                        />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:paddingHorizontal="10dp"
+                >
+                    <RelativeLayout
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/square">
+                        <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textColor="@color/colorblack"
+                                android:textSize="14sp"
+                                android:letterSpacing="0.03"
+                                android:lineSpacingExtra="8sp"
+                                android:gravity="center_horizontal"
+                                android:layout_centerVertical="true"
+                                android:text="Speaking \nVocabulary"/>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/circle"
+                            android:layout_centerHorizontal="true"
+
+                    >
+                        <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/mic"
+
+                        />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+    </RelativeLayout>
+-->
+

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.cognitive.englishmaster">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:replace="android:label">
+        <activity android:name=".activities.Pair_of_Words_Activity">
+        </activity>
+        <activity
+                android:name=".activities.Idioms_image_Activity"
+                android:label="Idioms"
+                android:parentActivityName=".activities.WritingActivity">
+        </activity>
+        <activity
+                android:name=".activities.Idioms_Activity"
+                android:label="Idioms"
+                android:parentActivityName=".activities.DifficultyLevelActivity">
+        </activity>
+        <activity android:name=".activities.Select_Language">
+        </activity>
+        <activity
+                android:name=".activities.Creative_Writing_Menu"
+                android:label="Categories"
+                android:parentActivityName=".activities.MainActivity">
+        </activity>
+        <activity android:name=".activities.DailyWord">
+        </activity>
+        <activity android:name=".activities.WordToPicture">
+        </activity>
+        <activity android:name=".activities.SavedActivity">
+        </activity>
+        <activity android:name=".activities.SettingActivity">
+        </activity>
+        <activity
+                android:name=".activities.AudioDetailActivity"
+                android:label="Audio">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.AudioListActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.AudioListActivity"
+                android:label="Audio">
+        </activity>
+        <activity
+                android:name=".activities.ResultActivity"
+                android:label="Result">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.QuizActivity"
+                android:label="Test">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.QuizSelectActivity"
+                android:label="Test">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.DifficultyLevelActivity"
+                android:label="Select">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.VocabularyDetailActivity"
+                android:theme="@style/AppTheme.SlidrActivityThemem">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.VocabularyActivity"
+                android:label="Categories">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.GrammerActivity"
+                android:label="Grammer">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.BlogActivity"
+                android:label="Blogs">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity
+                android:name=".activities.WritingActivity"
+                android:label="Writing">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activities.MainActivity"/>
+        </activity>
+        <activity android:name=".activities.MainActivity">
+        </activity>
+        <activity
+                android:name=".activities.SplashActivity"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

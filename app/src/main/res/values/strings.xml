@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">English Master</string>
+
+    <!--main_activity strings-->
+    <string name="vocabulary_text">Vocabulary</string>
+    <string name="creative_writing_text">Creative\nWriting</string>
+    <string name="daily_stuff_text">Daily\nStuff</string>
+    <string name="quiz_text">Quiz/Tests\n</string>
+    <string name="grammar_text">Grammar\n</string>
+
+    <!--difficulty_level_activity strings-->
+    <string name="beginner_text">Beginner</string>
+    <string name="intermediate_text">Intermediate</string>
+    <string name="advance_text">Advance</string>
+
+    <!--quiz_select_activity strings-->
+    <string name="urdu_meaning_text">Urdu Meaning</string>
+    <string name="english_meaning_text">English Meaning</string>
+    <string name="sentences_text">Sentences</string>
+    <string name="dont_ask_text">Dont ask again</string>
+    <string name="done_text">Done</string>
+
+    <!--result_activity strings-->
+    <string name="share_text">Share</string>
+
+    <string name="definition_text">
+        <u>Definition:</u>
+    </string>
+    <string name="example_text">
+        <u>Example:</u>
+    </string>
+    <string name="view_more_text">
+        <u>View More</u>
+    </string>
+    <string name="add_list_text">
+        <u>Add to List</u>
+    </string>
+    <string name="add_test_text">
+        <u>Add to Test</u>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="saved_articles">Saved Articles</string>
+    <string name="saved_questions">Saved Questions</string>
+
+    <!-- Creative Writing Strings-->
+    <string name="reading_n_vocabulary">Reading Vocabulary</string>
+    <string name="writing_n_vocabulary">Writing Vocabulary</string>
+    <string name="listening_n_vocabulary">Listening Vocabulary</string>
+    <string name="speaking_n_vocabulary">Speaking Vocabulary</string>
+
+    <!-- Quiz Selection  Strings-->
+    <string name="urdu_meaning">Urdu Meaning</string>
+    <string name="english_meaning">English Meaning</string>
+    <string name="sentences">Sentences</string>
+    <string name="select_btn">Select</string>
+    <string name="don_t_ask_again_btn">Don’t ask again</string>
+
+
+    <!-- Result   Strings-->
+    <string name="result_total">Total</string>
+    <string name="Result_correct">Correct</string>
+    <string name="Result_wrong">Wrong</string>
+</resources>

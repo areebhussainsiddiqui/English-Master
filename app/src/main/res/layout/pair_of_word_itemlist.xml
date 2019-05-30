@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:background="#f7f7f7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/POW_IV"
+            android:layout_marginHorizontal="102dp"
+            android:layout_width="match_parent"
+            android:layout_height="114.7dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="15.3dp"
+            android:src="@drawable/france"
+    app:civ_border_color="@color/bottom_border_color"
+    app:civ_border_width="1dp"/>
+    <LinearLayout
+            android:layout_marginHorizontal="30dp"
+            android:layout_below="@+id/POW_IV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_marginVertical="14dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+            <TextView
+                    android:id="@+id/POW_heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:letterSpacing="0.02"
+                    android:text="Calender"/>
+            <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/voice_icon"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:letterSpacing="0.02"
+                    android:text="Meaning:    "/>
+            <TextView
+                    android:id="@+id/POW_meaning"
+
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:letterSpacing="0.02"
+                    android:text="to become very angry or upset"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:letterSpacing="0.02"
+                    android:text="Defination:"/>
+            <TextView
+                    android:id="@+id/POW_defination"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:letterSpacing="0.02"
+                    android:text="Sales of their new CD have gone through the roof."/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:letterSpacing="0.02"
+                    android:text="Synonyms:"/>
+            <TextView
+                    android:id="@+id/POW_synonyms"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:letterSpacing="0.02"
+                    android:text="Sales of their new CD have gone through the roof."/>
+        </LinearLayout>
+        <View
+                android:background="@color/bottom_border_color"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

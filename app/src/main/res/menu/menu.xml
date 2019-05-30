@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Item"
+    android:id="@+id/bottm_nav_home"
+    android:icon="@drawable/home_icon"/>
+
+    <item android:title="Item"
+          android:id="@+id/bottm_nav_idea"
+    android:icon="@drawable/idea_icon"/>
+    <item android:title="Item"
+          android:id="@+id/bottm_nav_voice"
+    android:icon="@drawable/voice_icon"/>
+
+    <item android:title="Item"
+          android:id="@+id/bottm_nav_help"
+    android:icon="@drawable/help_icon"/>
+
+</menu>

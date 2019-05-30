@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".activities.WritingActivity">
+
+    <com.github.ybq.android.spinkit.SpinKitView
+            android:padding="160dp"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.ChasingDots"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            app:SpinKit_Color="@color/colorAccent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/writing_activity_recycler_view"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/float_button"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:visibility="invisible"
+            android:onClick="onClick"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/up_icon"
+
+/><!--  <include
+            layout="@layout/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_bar"
+            android:layout_alignParentBottom="true"/>
+-->
+</RelativeLayout>

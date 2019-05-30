@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginHorizontal="15.3dp"
+        android:orientation="vertical">
+
+   <LinearLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                    android:layout_marginTop="31dp"
+                 android:orientation="vertical">
+
+       <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="5dp"
+       >
+           <LinearLayout
+                   android:layout_width="match_parent"
+
+                   android:layout_height="wrap_content">
+<LinearLayout android:layout_width="24dp"
+
+              android:layout_height="24dp"
+              android:background="@drawable/red_circle"
+>
+    <TextView
+            android:id="@+id/Q_NO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="13.3dp"
+            android:textColor="@color/white"
+    />
+
+</LinearLayout>
+               <TextView
+                       android:layout_gravity="center"
+                       android:id="@+id/Question_timer"
+                       android:layout_marginHorizontal="5.3dp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textSize="13.3dp"
+                       android:textColor="#000000"
+                       android:letterSpacing="0.03"
+                       android:lineSpacingExtra="13.3sp"
+                       android:text="00:12"
+               />
+           </LinearLayout>
+           <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/ic_bookmark_border_black_24dp"
+                   android:layout_alignParentRight="true"
+           />
+       </RelativeLayout>
+       <TextView
+
+               android:id="@+id/Question_txt"
+               android:layout_marginHorizontal="5dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="11.3sp"
+               android:textColor="@color/colorblack"
+               android:letterSpacing="0.02"
+               android:fontFamily="@font/montserrat_regular"
+               android:lineSpacingExtra="10.7sp"
+               android:layout_marginTop="10dp"
+               android:text="If you are talking to someone online and they say what does it mean?"
+       />
+
+       <!--Ans1-->
+       <RelativeLayout
+               android:id="@+id/Question_ans1_CV"
+
+               android:layout_marginTop="24dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+       >
+           <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+               <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:paddingVertical="20dp"
+                       android:layout_marginHorizontal="17dp"
+                       android:orientation="horizontal">
+
+                  <!-- <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/white"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="a."
+                   />
+-->
+                   <TextView
+                           android:id="@+id/Question_ans1_txt"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="Big red button"
+                   />
+
+               </LinearLayout>
+               <View android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="@color/bottom_border_color"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <!--Ans2-->
+
+       <RelativeLayout
+               android:id="@+id/Question_ans2_CV"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+       >
+           <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+               <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="17dp"
+                       android:paddingVertical="20dp"
+                       android:orientation="horizontal">
+
+<!--
+                   <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="b."
+                   />
+-->
+
+                   <TextView
+                           android:id="@+id/Question_ans2_txt"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="Bathroom break"
+                   />
+
+               </LinearLayout>
+               <View android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="@color/bottom_border_color"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <!--Ans3-->
+       <RelativeLayout
+               android:id="@+id/Question_ans3_CV"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+       >
+           <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+               <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="17dp"
+                       android:paddingVertical="20dp"
+                       android:orientation="horizontal">
+
+               <!--    <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="c."
+                   />
+-->
+                   <TextView
+                           android:id="@+id/Question_ans3_txt"
+
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="Bank of the Republic of Burundi"
+                   />
+
+               </LinearLayout>
+               <View android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="@color/bottom_border_color"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <!--Ans4-->
+       <RelativeLayout
+               android:id="@+id/Question_ans4_CV"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+       >
+           <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+               <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="17dp"
+                       android:paddingVertical="20dp"
+                       android:orientation="horizontal">
+
+                   <!--<TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/white"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="d."
+                   />
+-->
+                   <TextView
+                           android:id="@+id/Question_ans4_txt"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="Big right back"
+                   />
+
+               </LinearLayout>
+               <View android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="@color/bottom_border_color"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+       <!--Ans5-->
+       <RelativeLayout
+               android:id="@+id/Question_ans5_CV"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+       >
+           <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="vertical">
+
+               <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginHorizontal="17dp"
+
+                       android:paddingVertical="20dp"
+                       android:orientation="horizontal">
+<!--
+                   <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="e."
+                   />-->
+
+                   <TextView
+                           android:id="@+id/Question_ans5_txt"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:textSize="11.3sp"
+                           android:textColor="@color/colorblack"
+                           android:letterSpacing="0.02"
+                           android:fontFamily="@font/montserrat_bold"
+                           android:lineSpacingExtra="38.7sp"
+                           android:text="Be right bottom"
+                   />
+
+               </LinearLayout>
+               <View android:layout_width="match_parent"
+                     android:layout_height="1dp"
+                     android:background="@color/bottom_border_color"/>
+           </LinearLayout>
+
+       </RelativeLayout>
+
+   </LinearLayout>
+
+</LinearLayout>
+<!--
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:cardCornerRadius="10dp"
+android:layout_margin="10dp"
+android:elevation="20dp"
+android:id="@+id/card"
+android:layout_centerInParent="true">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question"
+            android:id="@+id/question_list_q"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserrat_light"
+            android:layout_below="@id/question_list_q_number"
+            android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_list_q"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/question_list_answer_options"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_list_option_1"
+                android:text="Answer 1"
+                android:fontFamily="@font/montserrat_light"
+                android:textSize="13sp"
+                android:paddingStart="16dp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_list_option_2"
+                android:layout_marginTop="30dp"
+                android:text="Answer 1"
+                android:fontFamily="@font/montserrat_light"
+                android:textSize="13sp"
+                android:paddingStart="16dp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_list_option_3"
+                android:layout_marginTop="30dp"
+                android:text="Answer 1"
+                android:fontFamily="@font/montserrat_light"
+                android:textSize="13sp"
+                android:paddingStart="16dp"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_list_option_4"
+                android:text="Answer 1"
+                android:fontFamily="@font/montserrat_light"
+                android:textSize="13sp"
+                android:layout_marginTop="30dp"
+                android:paddingStart="16dp"/>
+
+    </RadioGroup>
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+-->
+

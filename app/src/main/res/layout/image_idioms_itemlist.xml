@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:background="#f7f7f7"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ImageIdioms_IV"
+        android:layout_marginHorizontal="72dp"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="15.3dp"
+        android:src="@drawable/france"/>
+    <LinearLayout
+            android:layout_marginHorizontal="30dp"
+            android:layout_below="@+id/ImageIdioms_IV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/ImageIdioms_heading"
+                android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="11.3sp"
+                  android:textColor="#000000"
+                  android:letterSpacing="0.02"
+                  android:gravity="center_horizontal"
+                  android:fontFamily="@font/montserrat_bold"
+                  android:text="Go through the roof"/>
+
+        <TextView
+                  android:layout_marginTop="4.7dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="11.3sp"
+                  android:textColor="#000000"
+                  android:letterSpacing="0.02"
+                  android:gravity="center_horizontal"
+                  android:textStyle="italic"
+                  android:fontFamily="@font/montserrat_regular"
+                  android:text="Informal "/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginVertical="14dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:letterSpacing="0.02"
+                    android:text="Meaning:"/>
+            <TextView
+                    android:id="@+id/ImageIdioms_meaning"
+
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:letterSpacing="0.02"
+                    android:text="to become very angry or upset"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+        >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:letterSpacing="0.02"
+                    android:text="Sentence:"/>
+            <TextView
+                    android:id="@+id/ImageIdioms_sentence"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11.3sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:letterSpacing="0.02"
+                    android:text="Sales of their new CD have gone through the roof."/>
+        </LinearLayout>
+        <View
+                android:background="@color/bottom_border_color"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+    </LinearLayout>
+
+</RelativeLayout>

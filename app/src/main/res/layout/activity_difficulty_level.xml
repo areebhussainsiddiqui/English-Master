@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.DifficultyLevelActivity">
+
+    <TextView
+            android:layout_width="165dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:layout_above="@id/diff_lev_intermediate"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserrat_regular"
+            android:onClick="onClick"
+            android:id="@+id/diff_lev_beginner"
+            android:background="#DACC3E"
+            android:textStyle="bold"
+            android:text="@string/beginner_text"/>
+
+    <TextView
+            android:layout_width="165dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:background="#21BD00"
+            android:textColor="#000"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/diff_lev_intermediate"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserrat_regular"
+            android:onClick="onClick"
+            android:textStyle="bold"
+            android:text="@string/intermediate_text"/>
+
+    <TextView
+            android:layout_width="165dp"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:layout_below="@id/diff_lev_intermediate"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            android:id="@+id/diff_lev_advance"
+            android:onClick="onClick"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="15sp"
+            android:background="#4471FF"
+            android:text="@string/advance_text"/>
+    <!--
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:padding="50dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:onClick="click"
+                    android:id="@+id/diff_lev_beginner"
+                    android:background="#F5DF00"
+                    android:textStyle="bold"
+                    android:text="@string/beginner_text"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="#20B401"
+                    android:textColor="#000"
+                    android:id="@+id/diff_lev_intermediate"
+                    android:padding="50dp"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:onClick="click"
+                    android:textStyle="bold"
+                    android:text="@string/intermediate_text"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:id="@+id/diff_lev_advance"
+                    android:padding="50dp"
+                    android:onClick="click"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:textSize="15sp"
+                    android:background="#0443FF"
+                    android:textStyle="bold"
+                    android:text="@string/advance_text"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+  -->
+</RelativeLayout>

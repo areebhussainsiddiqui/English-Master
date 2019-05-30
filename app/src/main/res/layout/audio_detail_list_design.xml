@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:paddingHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginVertical="10dp"
+                android:textSize="23sp"
+                android:text="Title"
+                android:fontFamily="@font/montserrat_light"
+                android:id="@+id/audio_detail_title"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Example: "
+                android:textSize="21sp"
+                android:textColor="#000"
+                android:fontFamily="@font/montserrat_regular"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/play_btn_background"
+                    android:src="@drawable/play_btn"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="st1"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:id="@+id/audio_detail_st1"
+                    android:layout_marginStart="22dp"
+                    android:textColor="#000"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/share_icon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="10dp">
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/play_btn_background"
+                    android:src="@drawable/play_btn"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="st1"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:id="@+id/audio_detail_st2"
+                    android:layout_marginStart="22dp"
+                    android:textColor="#000"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/share_icon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+              >
+
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/play_btn_background"
+                    android:src="@drawable/play_btn"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="st1"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserrat_light"
+                    android:id="@+id/audio_detail_st3"
+                    android:layout_marginStart="22dp"
+                    android:textColor="#000"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/share_icon"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#000"/>
+
+
+</LinearLayout>
